@@ -108,7 +108,7 @@ public class ChessMatch {
 			nextTurn();
 		}
 		
-		// #Specialmove en passant
+		// #Specialmove en passant Erik
 		if (movedPiece instanceof Pawn
 				&& (target.getRow() == source.getRow() - 2 || target.getRow() == source.getRow() + 2)) {
 			enPassantVulnerable = movedPiece;
